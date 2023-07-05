@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#styles {
+    font-size: 40px;
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(56, 94, 131);
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    margin-right: 15px;
+    color: white;
+    
+}
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 px;
+}
+
+.date {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color: rgba(170, 196, 221);
+    
+}
+.dedi {
+    color: rgba(170, 196, 221);
+
+}
+
+.heads {
+    background-color: rgb(56, 94, 131);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding: 50px 0 70px 0;
+}
+
+.tails {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+#regi {
+    padding: 11px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.dedi {
+    font-size: 32px;
+}
+
+.every {
+    font-size: 24px;
+    width: 1000px;
+    text-align: center;
+    color: white;
+    line-height: 42px;
+}
+
+#speakers, #sche, #venue {
+    color: slategray;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    display: flex;
+}
+
+.speakers, .sche, .venue {
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    gap: 20px;
+    margin: 0px 50px;
+}
+
+.world, #chicago {
+    text-transform: capitalize;
+}
+
+#join, #enjoy, #within {
+    width: 250px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(56, 94, 131);
+    margin-top: 50px;
+}
+
+#nav {
+    display: flex;
+    background-color: rgb(56, 94, 131);
+    justify-content: space-between;
+    padding: 34px;
+    margin: 0 15px;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+}
+
+#regi:hover {
+    background-color: white;
+    color: black;
+}
+
+.it:hover {
+    background-color: white;
+    color: black;
+}
+
+#id {
+    color: white;
+}
+
+
